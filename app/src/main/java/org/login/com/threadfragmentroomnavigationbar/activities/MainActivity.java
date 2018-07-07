@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity
 
         mTvEmail.setText(bundle.getString("Email"));
         mTvName.setText(bundle.getString("Name"));
+
+        initFragment(new HomeFragment());
     }
 
     @Override
